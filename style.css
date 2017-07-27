@@ -1,0 +1,62 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body {
+  font-family: 'Lato', sans-serif;
+  padding: .45em 2.65em 3em;
+  line-height: 1.5;
+}
+
+h1 {
+  margin-bottom: 0;
+  text-align: center; 
+}
+
+h1 + p {
+  font-size: 1.08em;
+  text-align: center; 
+  margin-top: .5em;
+  margin-bottom: 2.65em;
+  padding-bottom: 1.325em;
+  border-bottom: 1px dotted;
+}
+
+.rainbow-text {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+} 
+ 
+#r, #o, #y, #g, #b, #u, #v {
+  height: 4em;
+  width: 100%;
+}
+
+#r {
+  background-color: #f00;
+} 
+
+#o {
+  background-color: #fe6230;
+}
+
+#y {
+  background-color: #fef600; 
+}
+
+#g {
+  background-color: #00bc00;
+}
+
+#b {
+  background-color: #0048fe; 
+}
+
+#u {
+  background-color: #000083; 
+}
+
+#v {
+  background-color: #30009b;
+}
