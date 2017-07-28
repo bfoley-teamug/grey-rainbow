@@ -1,0 +1,1 @@
+This is a basic example of using mouseover events in regular javascript.
